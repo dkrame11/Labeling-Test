@@ -8,7 +8,7 @@
   },
   "issue": {
     "example": {
-      "requires": 2,
+      "requires": 1,
       "conditions": [
         {
           "type": "titleMatches",
