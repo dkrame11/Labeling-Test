@@ -2,20 +2,20 @@
   "labels": {
     "example": {
       "name": "quiz",
-      "colour": "#0000ff",
-      "description": "Quiz label"
+      "colour": "#00f0f",
+      "description": "quiz label"
     }
   },
   "issue": {
-    "quiz": {
+    "example": {
       "requires": 1,
       "conditions": [
         {
-          "type": "titleMatches",
+          "type": "descriptionMatches",
           "pattern": "quiz"
         },
         {
-          "type": "descriptionMatches",
+          "type": "titleMatches",
           "pattern": "quiz"
         },
         {
@@ -24,4 +24,15 @@
       ]
     }
   },
+  "pr": {
+    "quiz": {
+      "requires": 1,
+      "conditions": [
+        {
+          "type": "isDraft",
+          "value": false
+        }
+      ]
+    }
+  }
 }
