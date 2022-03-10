@@ -2,7 +2,7 @@
   "labels": {
     "example": {
       "name": "quiz",
-      "colour": "#00f0f",
+      "colour": "#0000ff",
       "description": "quiz label"
     }
   },
