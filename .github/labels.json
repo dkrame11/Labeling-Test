@@ -1,9 +1,14 @@
 {
   "labels": {
-    "example": {
+    "bug": {
       "name": "bug",
       "colour": "#ff0000",
       "description": "Bug Label"
+    },
+    "example": {
+      "name": "example",
+      "colour": "#00ff00",
+      "description": "Example Label"
     }
   },
   "issue": {
@@ -13,6 +18,18 @@
         {
           "type": "titleMatches",
           "pattern": "bug"
+        },
+        {
+          "type": "isOpen"
+        }
+      ]
+    },
+    "example": {
+      "requires": 1,
+      "conditions": [
+        {
+          "type": "titleMatches",
+          "pattern": "example"
         },
         {
           "type": "isOpen"
