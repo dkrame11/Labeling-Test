@@ -11,6 +11,8 @@
       "description": "Example Label"
     }
   },
+},
+{
   "issue": {
     "bug": {
       "requires": 1,
@@ -19,9 +21,6 @@
           "type": "titleMatches",
           "pattern": "bug"
         },
-        {
-          "type": "isOpen"
-        }
       ]
     },
     "example": {
@@ -31,10 +30,7 @@
           "type": "titleMatches",
           "pattern": "example"
         },
-        {
-          "type": "isOpen"
-        }
       ]
     }
-  },
+  }
 }
