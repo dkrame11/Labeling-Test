@@ -1,5 +1,4 @@
-{
-  "labels": {
+"labels": {
     "bug": {
       "name": "bug",
       "colour": "#ff0000",
@@ -11,26 +10,24 @@
       "description": "Example Label"
     }
   },
-},
-{
-  "issue": {
-    "bug": {
-      "requires": 1,
-      "conditions": [
-        {
-          "type": "titleMatches",
-          "pattern": "bug"
-        },
-      ]
-    },
-    "example": {
-      "requires": 1,
-      "conditions": [
-        {
-          "type": "titleMatches",
-          "pattern": "example"
-        },
-      ]
-    }
+}
+"issue": {
+  "bug": {
+    "requires": 1,
+    "conditions": [
+      {
+        "type": "titleMatches",
+        "pattern": "bug"
+      },
+    ]
+  },
+  "example": {
+    "requires": 1,
+    "conditions": [
+      {
+        "type": "titleMatches",
+        "pattern": "example"
+      },
+    ]
   }
 }
