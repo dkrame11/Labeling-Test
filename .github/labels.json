@@ -24,15 +24,5 @@
       ]
     }
   },
-  "pr": {
-    "quiz": {
-      "requires": 1,
-      "conditions": [
-        {
-          "type": "isDraft",
-          "value": false
-        }
-      ]
-    }
-  }
+  "pr": {}
 }
